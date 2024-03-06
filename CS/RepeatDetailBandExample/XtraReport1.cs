@@ -14,7 +14,7 @@ namespace RepeatDetailBandExample
             InitializeComponent();
         }
 
-        private void xrLabel5_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        private void xrLabel5_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
         {
             ((XRLabel)sender).Text += currentDetail.ToString();
             ((XRLabel)sender).Text += @"/";
@@ -22,7 +22,7 @@ namespace RepeatDetailBandExample
             currentDetail++;
         }
 
-        private void Detail_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        private void Detail_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
         {
             currentDetail = 1;
             DetailReport.ReportPrintOptions.DetailCountOnEmptyDataSource = 
