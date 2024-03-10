@@ -3,12 +3,9 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T210911)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to Repeat the Detail Band a Different Number of Times 
-
-
+# Reporting for WinForms - How to Repeat the Detail Band a Different Number of Times 
 
 In this example a detail band bound to data displays multiple rows in a document for a single record. The number of rows is calculated at runtme and is equal to the current value of another data field.
-
 
 ![Repeat detail band a different number of times](Images/screenshot.png)
 
@@ -18,10 +15,8 @@ If a report is **bound to data**, you can **limit** the number of times the Deta
 
 This example demonstrates how to print the Detail band for a single record multiple times. The number of times to repeat the Detail band is specified by a value retrieved from another data field. The [DetailReportBand](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailReportBand) is unbound, and the [ReportPrintOptions.DetailCountOnEmptyDataSource](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.ReportPrintOptions.DetailCountOnEmptyDataSource) property is specified in the **DetailReportBand.BeforePrint** event handler.
 
-## Files to Look At
-
+## Files to Review
 - [XtraReport1.cs](CS/RepeatDetailBandExample/XtraReport1.cs) ([XtraReport1.vb](VB/RepeatDetailBandExample/XtraReport1.vb))
-
 
 ## Documentation
 
