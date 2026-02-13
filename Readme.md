@@ -28,7 +28,7 @@ This example demonstrates how to print the Detail band for a single record multi
 
 - [How to add blank rows and fill the empty space between the Detail band and the next band or the end of the page](https://github.com/DevExpress-Examples/Reporting_how-to-print-detailband-multiple-times-regardless-of-the-number-of-records-e3740)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-repeat-detail-band-multiple-times&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-repeat-detail-band-multiple-times&~~~was_helpful=no)
 
